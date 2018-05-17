@@ -1,0 +1,22 @@
+{
+  "name": "constructorwordguess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinepena/constructorWordGuess.git"
+  },
+  "author": "Kevin Peña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinepena/constructorWordGuess/issues"
+  },
+  "homepage": "https://github.com/kevinepena/constructorWordGuess#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0"
+  }
+}
