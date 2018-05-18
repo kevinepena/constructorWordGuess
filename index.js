@@ -9,9 +9,6 @@ var myWord = new Word(randomWord[randomNum]);
 
 function checkRound() {
 
-    console.log("");
-    console.log("");
-
     // If the user has less than 0 health.... then the user lost.
     if (myWord.isAllCorrect) {
 
@@ -23,15 +20,15 @@ function checkRound() {
 
         // Exit the game
         process.exit();
-    } else playRound();
-
-
+    } else {
+        playRound();
+    }
+    
 }
 
 
 // This function holds the game logic
 function playRound() {
-
 
     console.log(myWord.toString());
 
@@ -47,7 +44,8 @@ function playRound() {
 
         console.log(guess.letter)
 
-        if (myWord.isCorrect()) {
+
+        if (myWord.isCorrect(guess.letter(guess.letter))) {
             console.log(myWord.toString());
             checkRound();
         } else {
